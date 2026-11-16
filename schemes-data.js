@@ -25,8 +25,8 @@ const SCHEMES_DATA = [
       en: "₹5,00,000 per family / year",
       hi: "₹5,00,000 प्रति परिवार / वर्ष"
     },
-    officialUrl: "https://pmjay.gov.in",
-    portalName: "National Health Authority (NHA)",
+    officialUrl: "https://beneficiary.nha.gov.in",
+    portalName: "beneficiary.nha.gov.in",
     tags: ["Healthcare", "Hospital", "Free Treatment", "Cashless"],
     eligibility: {
       minAge: 0,
@@ -235,8 +235,8 @@ const SCHEMES_DATA = [
       en: "₹1,20,000 (Plains) / ₹1,30,000 (Hilly/NE)",
       hi: "₹1,20,000 (मैदानी) / ₹1,30,000 (पहाड़ी/पूर्वोत्तर)"
     },
-    officialUrl: "https://pmayg.nic.in",
-    portalName: "PMAY-G AwaasSoft",
+    officialUrl: "https://pmayg.dord.gov.in",
+    portalName: "pmayg.dord.gov.in",
     tags: ["Housing", "Rural", "Pucca Ghar", "Grant"],
     eligibility: {
       minAge: 18,
@@ -590,8 +590,8 @@ const SCHEMES_DATA = [
       en: "₹1,000 to ₹5,000 / month for life",
       hi: "₹1,000 से ₹5,000 / माह आजीवन"
     },
-    officialUrl: "https://www.npscra.nsdl.co.in",
-    portalName: "PFRDA / Protean APY Portal",
+    officialUrl: "https://www.jansuraksha.gov.in",
+    portalName: "jansuraksha.gov.in",
     tags: ["Pension", "Unorganized Sector", "Retirement", "Guaranteed"],
     eligibility: {
       minAge: 18,
@@ -1213,8 +1213,8 @@ const SCHEMES_DATA = [
       en: "₹1,000 to ₹3,000 / month (Central + State Combined)",
       hi: "₹1,000 से ₹3,000 / माह (केंद्र + राज्य सहायता)"
     },
-    officialUrl: "https://nsap.nic.in",
-    portalName: "National Social Assistance Programme (NSAP)",
+    officialUrl: "https://myscheme.gov.in/schemes/ignoaps",
+    portalName: "myscheme.gov.in",
     tags: ["Senior Citizen", "Pension", "Old Age", "Social Welfare"],
     eligibility: {
       minAge: 60,
@@ -1282,8 +1282,8 @@ const SCHEMES_DATA = [
       en: "₹1,000 to ₹2,500 / month (Central + State Top-up)",
       hi: "₹1,000 से ₹2,500 / माह (राज्य अनुसार)"
     },
-    officialUrl: "https://nsap.nic.in",
-    portalName: "National Social Assistance Programme",
+    officialUrl: "https://myscheme.gov.in/schemes/ignwps",
+    portalName: "myscheme.gov.in",
     tags: ["Widow", "Women", "Pension", "Support"],
     eligibility: {
       minAge: 40,
@@ -1352,8 +1352,8 @@ const SCHEMES_DATA = [
       en: "Up to ₹25,00,000 Loan at 5%-7% interest",
       hi: "₹25,00,000 तक ऋण मात्र 5%-7% ब्याज पर"
     },
-    officialUrl: "https://www.nhfdc.nic.in",
-    portalName: "National Divyangjan Finance and Development Corp",
+    officialUrl: "https://www.swavlambancard.gov.in",
+    portalName: "swavlambancard.gov.in",
     tags: ["Disability", "PwD", "Divyangjan", "Self-Employment"],
     eligibility: {
       minAge: 18,
@@ -1490,8 +1490,8 @@ const SCHEMES_DATA = [
       en: "100% Free Training + NSQF Certificate + Placement assistance",
       hi: "100% मुफ्त ट्रेनिंग + सरकारी प्रमाण पत्र + नौकरी सहयोग"
     },
-    officialUrl: "https://www.pmkvyofficial.org",
-    portalName: "Skill India Digital Hub",
+    officialUrl: "https://www.skillindiadigital.gov.in",
+    portalName: "skillindiadigital.gov.in",
     tags: ["Skill Training", "Youth", "Jobs", "Vocational"],
     eligibility: {
       minAge: 15,
@@ -1836,8 +1836,8 @@ const SCHEMES_DATA = [
       en: "Full Course Fees Covered + ₹4,000 / month living stipend",
       hi: "पूरी कोचिंग फीस + ₹4,000 प्रति माह रहने का खर्च"
     },
-    officialUrl: "https://coaching.dosje.gov.in",
-    portalName: "Coaching Portal (MoSJE)",
+    officialUrl: "https://socialjustice.gov.in",
+    portalName: "socialjustice.gov.in",
     tags: ["UPSC Coaching", "NEET", "JEE", "SC/OBC", "Stipend"],
     eligibility: {
       minAge: 18,
@@ -1906,8 +1906,8 @@ const SCHEMES_DATA = [
       en: "₹20,000 to ₹30,000 One-time direct transfer",
       hi: "₹20,000 से ₹30,000 एकमुश्त डीबीटी सहायता"
     },
-    officialUrl: "https://nsap.nic.in",
-    portalName: "National Social Assistance Programme",
+    officialUrl: "https://myscheme.gov.in/schemes/nfbs",
+    portalName: "myscheme.gov.in",
     tags: ["Emergency Relief", "Breadwinner Death", "BPL", "Family Security"],
     eligibility: {
       minAge: 18,
@@ -2045,8 +2045,8 @@ const SCHEMES_DATA = [
       en: "100% Tuition Fees + $15,400 / £9,900 Annual Allowance + Airfare",
       hi: "100% विदेशी कॉलेज फीस + $15,400 वार्षिक भत्ता + हवाई टिकट"
     },
-    officialUrl: "https://nosmsje.gov.in",
-    portalName: "National Overseas Scholarship Portal",
+    officialUrl: "https://socialjustice.gov.in",
+    portalName: "socialjustice.gov.in",
     tags: ["Abroad Studies", "Masters", "PhD", "SC Students", "Full Scholarship"],
     eligibility: {
       minAge: 20,
