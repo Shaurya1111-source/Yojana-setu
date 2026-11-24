@@ -1,0 +1,28 @@
+name: Supabase Keep-Alive
+
+# Automatically pings Supabase every 3 days to prevent automatic project pausing on the Free tier.
+on:
+  schedule:
+    - cron: '0 6 */3 * *' # Runs at 06:00 UTC every 3 days
+  workflow_dispatch:      # Allows manual trigger anytime from GitHub Actions tab
+
+jobs:
+  ping-supabase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send keep-alive query to Supabase PostgreSQL
+        run: |
+          # Query a single row from the schemes table to register database activity
+          SUPABASE_URL="${{ secrets.SUPABASE_URL || 'https://iashurstwvpcgxqdrukb.supabase.co' }}"
+          SUPABASE_KEY="${{ secrets.SUPABASE_ANON_KEY || 'YOUR_ANON_KEY_HERE' }}"
+          
+          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X GET "$SUPABASE_URL/rest/v1/schemes?select=id&limit=1" \
+            -H "apikey: $SUPABASE_KEY" \
+            -H "Authorization: Bearer $SUPABASE_KEY")
+            
+          echo "Supabase Keep-Alive Ping HTTP Response Code: $RESPONSE"
+          if [ "$RESPONSE" -eq 200 ]; then
+            echo "✅ Supabase project is active and healthy!"
+          else
+            echo "⚠️ Ping received code $RESPONSE (check URL or keys if not 200)."
+          fi
